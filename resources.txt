@@ -1,0 +1,55 @@
+https://www.putorius.net/create-multiple-choice-menu-bash.html
+https://github.com/h4k1m0u/bash-quiz
+https://dev.to/colerau/creating-a-short-math-quiz-with-bash-scripting-64p
+https://gist.github.com/ntwobike
+
+--
+
+write python script for a multiple choice quiz game in python which gets the questions and answers from a separate json file and gives the score at the end 
+
+Sure, here's an example of a Python script for a multiple choice quiz game that gets the questions and answers from a separate JSON file and gives the score at the end:
+
+Copy code
+import json
+
+def read_questions():
+    with open("questions.json", "r") as file:
+        return json.load(file)
+
+def start_quiz():
+    questions = read_questions()
+    score = 0
+    for question in questions:
+        print(question["question"])
+        for i, option in enumerate(question["options"]):
+            print(str(i + 1) + ") " + option)
+        user_answer = input("Enter the number of your answer: ")
+        if question["options"][int(user_answer) - 1] == question["answer"]:
+            print("Correct!")
+            score += 1
+        else:
+            print("Incorrect.")
+    print("Your final score is " + str(score) + " out of " + str(len(questions)) + ".")
+
+start_quiz()
+This script reads the questions and answers from a JSON file called "questions.json". This file should have the following format:
+
+Copy code
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Rome", "Madrid"],
+        "answer": "Paris"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Earth", "Jupiter", "Saturn", "Uranus"],
+        "answer": "Jupiter"
+    },
+    // more questions...
+]
+The script then iterates through the questions, displaying the options for each question and prompting the user to enter the number of their answer. The script compares the user's input to the correct answer, and if the answer is correct, the user's score is incremented. At the end of the quiz, the script displays the final score.
+You need to have the json library, which is included in python, installed in order to use this script.
+Please let me know if you have any other questions or if you need more help with your quiz game.
+
+

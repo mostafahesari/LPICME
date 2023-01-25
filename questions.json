@@ -1,0 +1,24 @@
+[
+  {
+    "question": "Which of the following commands is used to view kernel-related udev events in real time?",
+    "options": [
+      "udevls all",
+      "lsudev -f",
+      "udevmon -a",
+      "udevadm monitor"
+    ],
+    "answer": "udevadm monitor",
+    "explanation": "The udevadm command is used to work with the udev interface of the kernel, and the monitor subcommand displays kernel uevents and other udev events in real time."
+  },
+  {
+    "question": "Which command enables you to view the current interrupt request (IRQ) assignments?",
+    "options": [
+      "view /proc/irq",
+      "cat /proc/interrupts",
+      "cat /dev/irq",
+      "less /dev/irq"
+    ],
+    "answer": "Jupiter",
+    "explanation": "Current IRQ assignments are contained in the file /proc/interrupts. Therefore, viewing the contents of the file with a command such as cat will work. There is no “view command, making option A incorrect. Likewise, there is no /dev irq file, making options C and D incorrect."
+  }
+]

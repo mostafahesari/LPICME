@@ -1,0 +1,6 @@
+Which of the following files is updated dynamically with information about currently
+mounted filesystems?
+A. /etc/fstab
+B. /etc/files
+C. /boot/fstab
+D. /etc/mtab
