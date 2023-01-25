@@ -27,8 +27,5 @@ for q in questions[1:]:
   array_quest.append(dict_quest)
   pprint(dict_quest)
 
-# with open("questions1.json", "a") as f:
-#   json.dump(dict_quest, f)
-
 with open("question2.json", "w") as f:
   json.dump(array_quest, f, indent=2)
