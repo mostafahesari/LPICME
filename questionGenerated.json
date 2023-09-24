@@ -1,6 +1,6 @@
 [
   {
-    "number": " 1",
+    "_id": " 1",
     "question": "Which SysV init configuration file should be modified to disable the ctrl-alt-delete key combination?",
     "options": [
       "/proc/keys ",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "number": " 2",
+    "_id": " 2",
     "question": "Which of the following information is stored within the BIOS? (Choose TWO correct answers.)",
     "options": [
       "Linux kernel version",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "number": " 3",
+    "_id": " 3",
     "question": "Which of the following commands reboots the system when using SysV init? (Choose TWO correct answers.)",
     "options": [
       "shutdown -r \"rebooting\"",
@@ -39,7 +39,7 @@
     ]
   },
   {
-    "number": " 4",
+    "_id": " 4",
     "question": "Which of the following are init systems used within Linux systems? (Choose THREE correct answers.)",
     "options": [
       "startd",
@@ -55,14 +55,14 @@
     ]
   },
   {
-    "number": " 5",
+    "_id": " 5",
     "question": "Which file in the /proc filesystem lists parameters passed from the bootloader to the kernel? (Specify the file name only without any path.)",
     "answer" : [
       "cmdline", "/proc/cmdline"
     ]
   },
   {
-    "number": " 6",
+    "_id": " 6",
     "question": "What information can the lspci command display about the system hardware? (Choose THREE correct answers.)",
     "options": [
       "PCI bus speed",
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "number": " 7",
+    "_id": " 7",
     "question": "Which of the following commands brings a system running SysV init into a state in which it is safe to perform maintenance tasks? (Choose TWO correct answers.)",
     "options": [
       "shutdown -single now ",
@@ -91,7 +91,7 @@
     ]
   },
   {
-    "number": " 8",
+    "_id": " 8",
     "question": "What is the first program that is usually started, at boot time, by the Linux kernel when using SysV init?",
     "options": [
       "/sbin/init",
@@ -104,12 +104,12 @@
     ]
   },
   {
-    "number": " 9",
+    "_id": " 9",
     "question": "Which command will display messages from the kernel that were output during the normal boot sequence?",
     "answer": "dmesg -or- /bin/dmesg Section: System Architecture Explanation"
   },
   {
-    "number": " 10",
+    "_id": " 10",
     "question": "Which of the following commands will write a message to the terminals of all logged in users?",
     "options": [
       "mesg ",
@@ -122,7 +122,7 @@
     ]
   },
   {
-    "number": " 11",
+    "_id": " 11",
     "question": "Which of the following kernel parameters instructs the kernel to suppress most boot messages?",
     "options": [
       "verbose=0 ",
@@ -134,7 +134,7 @@
     ]
   },
   {
-    "number": " 12",
+    "_id": " 12",
     "question": "Which of the following options for the kernel's command line changes the systemd boot target to rescue.target instead of the default target?",
     "options": [
       "systemd.runlevel=rescue.target ",
@@ -147,7 +147,7 @@
     ]
   },
   {
-    "number": " 13",
+    "_id": " 13",
     "question": "After modifying GNU GRUB's configuration file, which command must be run for the changes to take effect?",
     "options": [
       "grub-install",
@@ -159,7 +159,7 @@
     ]
   },
   {
-    "number": " 14",
+    "_id": " 14",
     "question": "Which of the following commands is used to update the list of available packages when using dpkg based package management?",
     "options": [
       "apt-get upgrade",
@@ -172,7 +172,7 @@
     ]
   },
   {
-    "number": " 15",
+    "_id": " 15",
     "question": "Which of the following commands can be used to download the RPM package kernel without installing it?",
     "options": [
       "yumdownloader kernel",
@@ -184,7 +184,7 @@
     ]
   },
   {
-    "number": " 16",
+    "_id": " 16",
     "question": "When using rpm --verify to check files created during the installation of RPM packages, which of the following information is taken into consideration? (Choose THREE correct answers.)",
     "options": [
       "MD5 checksums ",
@@ -197,7 +197,7 @@
     ]
   },
   {
-    "number": " 17",
+    "_id": " 17",
     "question": "Which of the following is correct when talking about mount points?",
     "options": [
       "Only empty directories can be used as a mount point.",
@@ -209,7 +209,7 @@
     ]
   },
   {
-    "number": " 18",
+    "_id": " 18",
     "question": "Which function key is used to start Safe Mode in Windows NT?",
     "options": [
       "F8",
@@ -221,7 +221,7 @@
     ]
   },
   {
-    "number": " 19",
+    "_id": " 19",
     "question": "Which of the following environment variables overrides or extends the list of directories holding shared libraries?",
     "options": [
       "LD_LIB_PATH",
@@ -234,11 +234,11 @@
     ]
   },
   {
-    "number": " 20",
+    "_id": " 20",
     "question": "Which world-writable directory should be placed on a separate partition in order to prevent users from being able to fill up the / filesystem? (Specify the full path to the directory.)"
   },
   {
-    "number": " 21",
+    "_id": " 21",
     "question": "Which RPM command will output the name of the package which supplied the file /etc/exports?",
     "options": [
       "rpm -qf /etc/exports ",
@@ -251,15 +251,15 @@
     ]
   },
   {
-    "number": " 22",
+    "_id": " 22",
     "question": "In which directory must definition files be placed to add additional repositories to yum?"
   },
   {
-    "number": " 23",
+    "_id": " 23",
     "question": "What is the name of the main configuration file for GNU GRUB? (Specify the file name only without any path.)"
   },
   {
-    "number": " 24",
+    "_id": " 24",
     "question": "When removing a package, which of the following dpkg options will completely remove the files including configuration files?",
     "options": [
       "--delete ",
@@ -271,7 +271,7 @@
     ]
   },
   {
-    "number": " 25",
+    "_id": " 25",
     "question": "Which file should be edited to select the network locations from which Debian installation package files are loaded?",
     "options": [
       "/etc/apt/apt.conf",
@@ -284,19 +284,19 @@
     ]
   },
   {
-    "number": " 26",
+    "_id": " 26",
     "question": "Which option to the yum command will update the entire system? (Specify ONLY the option name without any additional parameters.)"
   },
   {
-    "number": " 27",
+    "_id": " 27",
     "question": "Which command will disable swapping on a device? (Specify ONLY the command without any path or parameters.)"
   },
   {
-    "number": " 28",
+    "_id": " 28",
     "question": "Which Debian package management tool asks the configuration questions for a specific already installed package just as if the package were being installed for the first time? (Specify ONLY the command without any path or parameters.)"
   },
   {
-    "number": " 29",
+    "_id": " 29",
     "question": "Which of the following commands overwrites the bootloader located on /dev/sda without overwriting the partition table or any data following it?",
     "options": [
       "dd if=/dev/zero of=/dev/sda bs=512 count=1 ",
@@ -308,7 +308,7 @@
     ]
   },
   {
-    "number": " 30",
+    "_id": " 30",
     "question": "Which of the following commands can be used to create a USB storage media from a disk image?",
     "options": [
       "dd",
@@ -321,7 +321,7 @@
     ]
   },
   {
-    "number": " 31",
+    "_id": " 31",
     "question": "In Bash, inserting 1>&2 after a command redirects",
     "options": [
       " standard input to standard error. ",
@@ -334,7 +334,7 @@
     ]
   },
   {
-    "number": " 32",
+    "_id": " 32",
     "question": "What command will generate a list of user names from /etc/passwd along with their login shell?",
     "options": [
       "chop -c 1,7 /etc/passwd",
@@ -346,7 +346,7 @@
     ]
   },
   {
-    "number": " 33",
+    "_id": " 33",
     "question": "In a nested directory structure, which find command line option would be used to restrict the command to searching down a particular number of subdirectories?",
     "options": [
       "-maxdepth ",
@@ -359,7 +359,7 @@
     ]
   },
   {
-    "number": " 34",
+    "_id": " 34",
     "question": "Which of the following statements is correct regarding the command foo 1> bar?",
     "options": [
       "The stdout from the command foo overwrites the file bar.",
@@ -372,7 +372,7 @@
     ]
   },
   {
-    "number": " 35",
+    "_id": " 35",
     "question": "Which of the following commands kills the process with the PID 123 but allows the process to \"clean up\" before exiting?",
     "options": [
       "kill -KILL 123 ",
@@ -384,11 +384,11 @@
     ]
   },
   {
-    "number": " 36",
+    "_id": " 36",
     "question": "Which signal is missing from the following command that is commonly used to instruct a daemon to reinitialize itself, including reading configuration files?"
   },
   {
-    "number": " 37",
+    "_id": " 37",
     "question": "What is the maximum niceness value that a regular user can assign to a process with the nice command when executing a new process?",
     "options": [
       "19 ",
@@ -400,7 +400,7 @@
     ]
   },
   {
-    "number": " 38",
+    "_id": " 38",
     "question": "Immediately after deleting 3 lines of text in vi and moving the cursor to a different line, which single character command will insert the deleted content below the current line?",
     "options": [
       "P (uppercase) ",
@@ -413,7 +413,7 @@
     ]
   },
   {
-    "number": " 39",
+    "_id": " 39",
     "question": "A user accidentally created the subdirectory \\dir in his home directory. Which of the following commands will remove that directory?",
     "options": [
       "rmdir \"~/\\dir\" ",
@@ -426,7 +426,7 @@
     ]
   },
   {
-    "number": " 40",
+    "_id": " 40",
     "question": "In compliance with the FHS, in which of the directories are man pages found?",
     "options": [
       "/usr/share/man ",
@@ -440,7 +440,7 @@
     ]
   },
   {
-    "number": " 41",
+    "_id": " 41",
     "question": "Which of the following commands will send output from the program myapp to both standard output (stdout) and the file file1.log?",
     "options": [
       "myapp 0>&1 | cat > file1.log ",
@@ -453,7 +453,7 @@
     ]
   },
   {
-    "number": " 42",
+    "_id": " 42",
     "question": "What is the purpose of the Bash built-in export command?",
     "options": [
       "It runs a command as a process in a subshell.",
@@ -466,7 +466,7 @@
     ]
   },
   {
-    "number": " 43",
+    "_id": " 43",
     "question": "What is the output of the following command? echo \"Hello World\" | tr -d aieou",
     "options": [
       "eoo",
@@ -478,7 +478,7 @@
     ]
   },
   {
-    "number": " 44",
+    "_id": " 44",
     "question": "Which of the following characters can be combined with a separator string in order to read from the current input source until the separator string, which is on a separate line and without any trailing spaces, is reached?",
     "options": [
       "<| ",
@@ -490,7 +490,7 @@
     ]
   },
   {
-    "number": " 45",
+    "_id": " 45",
     "question": "Which of the following commands will NOT update the modify timestamp on the file /tmp/myfile.txt?",
     "options": [
       "echo \"Hello\" >/tmp/myfile.txt",
@@ -503,7 +503,7 @@
     ]
   },
   {
-    "number": " 46",
+    "_id": " 46",
     "question": "What is the default nice level when a process is started using the nice command?",
     "options": [
       "10 ",
@@ -515,7 +515,7 @@
     ]
   },
   {
-    "number": " 47",
+    "_id": " 47",
     "question": "What is the default action of the split command on an input file?",
     "options": [
       "It will break the file into new files of 1,000 line pieces each.",
@@ -527,7 +527,7 @@
     ]
   },
   {
-    "number": " 48",
+    "_id": " 48",
     "question": "What is the difference between the i and a commands of the vi editor?",
     "options": [
       "i (insert) inserts text before the current cursor position whereas a (append) inserts text after the cursor.",
@@ -539,11 +539,11 @@
     ]
   },
   {
-    "number": " 49",
+    "_id": " 49",
     "question": "Which command displays a list of all background tasks running in the current shell? (Specify ONLY the command without any path or parameters.)"
   },
   {
-    "number": " 50",
+    "_id": " 50",
     "question": "Which of the following commands moves and resumes in the background the last stopped shell job?",
     "options": [
       "bg",
@@ -555,7 +555,7 @@
     ]
   },
   {
-    "number": " 51",
+    "_id": " 51",
     "question": "What is the effect of the egrep command when the -v option is used?",
     "options": [
       "It only outputs non-matching lines.",
@@ -567,7 +567,7 @@
     ]
   },
   {
-    "number": " 52",
+    "_id": " 52",
     "question": "What does the ? symbol within regular expressions represent?",
     "options": [
       "Match the preceding qualifier zero or more times. ",
@@ -579,7 +579,7 @@
     ]
   },
   {
-    "number": " 53",
+    "_id": " 53",
     "question": "In the vi editor, how can commands such as moving the cursor or copying lines into the buffer be issued multiple times or applied to multiple rows? ",
     "options": [
       "By specifying the number right in front of a command such as 4l or 2yj.",
@@ -591,7 +591,7 @@
     ]
   },
   {
-    "number": " 54",
+    "_id": " 54",
     "question": "Which of the following files, located in the user home directory, is used to store the Bash history?",
     "options": [
       ".bash_histfile ",
@@ -604,11 +604,11 @@
     ]
   },
   {
-    "number": " 55",
+    "_id": " 55",
     "question": "Which Bash environment variable defines in which file the user history is stored when exiting a Bash process? (Specify ONLY the variable name.)"
   },
   {
-    "number": " 56",
+    "_id": " 56",
     "question": "Which of the following commands displays the contents of a gzip compressed tar archive?",
     "options": [
       "tar ztf archive.tgz",
@@ -620,7 +620,7 @@
     ]
   },
   {
-    "number": " 57",
+    "_id": " 57",
     "question": "Which grep command will print only the lines that do not end with a / in the file foo?",
     "options": [
       "grep '/#' foo ",
@@ -632,7 +632,7 @@
     ]
   },
   {
-    "number": " 58",
+    "_id": " 58",
     "question": "Which of the following commands is used to change options and positional parameters for a running Bash?",
     "options": [
       "set",
@@ -645,7 +645,7 @@
     ]
   },
   {
-    "number": " 59",
+    "_id": " 59",
     "question": "Which of the following commands replaces each occurrence of 'bob' in the file letter with 'Bob' and writes the result to the file newletter?",
     "options": [
       "sed s/bob/Bob/ letter < newletter ",
@@ -658,7 +658,7 @@
     ]
   },
   {
-    "number": " 60",
+    "_id": " 60",
     "question": "From a Bash shell, which of the following commands directly executes the instruction from the file /usr/local/bin/runme.sh without starting a subshell? (Please select TWO answers.)",
     "options": [
       ". /usr/local/bin/runme.sh",
@@ -671,7 +671,7 @@
     ]
   },
   {
-    "number": " 61",
+    "_id": " 61",
     "question": "Regarding the command:   nice -5 /usr/bin/prog       Which of the following statements is correct?",
     "options": [
       "/usr/bin/prog is executed with a nice level of 5.",
@@ -683,7 +683,7 @@
     ]
   },
   {
-    "number": " 62",
+    "_id": " 62",
     "question": "Which shell command is used to continue background execution of a suspended command?",
     "options": [
       "bg ",
@@ -696,7 +696,7 @@
     ]
   },
   {
-    "number": " 63",
+    "_id": " 63",
     "question": "Which of the following shell redirections will write standard output and standard error output to a file named filename?",
     "options": [
       ">filename 2>&1 ",
@@ -709,7 +709,7 @@
     ]
   },
   {
-    "number": " 64",
+    "_id": " 64",
     "question": "In the vi editor, which of the following commands will copy the current line into the vi buffer?",
     "options": [
       "cc ",
@@ -722,7 +722,7 @@
     ]
   },
   {
-    "number": " 65",
+    "_id": " 65",
     "question": "Which of the following sequences in the vi editor saves the opened document and exits the editor? (Choose TWO correct answers.)",
     "options": [
       "ctrl :w! ",
@@ -735,7 +735,7 @@
     ]
   },
   {
-    "number": " 66",
+    "_id": " 66",
     "question": "When starting a program with the nice command without any additional parameters, which nice level is set for the resulting process?",
     "options": [
       "0 ",
@@ -747,7 +747,7 @@
     ]
   },
   {
-    "number": " 67",
+    "_id": " 67",
     "question": "Which of the following commands will reduce all consecutive spaces down to a single space?",
     "options": [
       "tr -c ' ' < a.txt > b.txt",
@@ -760,7 +760,7 @@
     ]
   },
   {
-    "number": " 68",
+    "_id": " 68",
     "question": "Which character, added to the end of a command, runs that command in the background as a child process of the current shell?",
     "options": [
       "+ ",
@@ -773,7 +773,7 @@
     ]
   },
   {
-    "number": " 69",
+    "_id": " 69",
     "question": "Which of the following commands will print the last 10 lines of a text file to the standard output?",
     "options": [
       "dump -n 10 filename ",
@@ -785,7 +785,7 @@
     ]
   },
   {
-    "number": " 70",
+    "_id": " 70",
     "question": "Which of the following commands prints a list of usernames (first column) and their primary group (fourth column) from the /etc/passwd file?",
     "options": [
       "split -c 1,4 /etc/passwd ",
@@ -797,7 +797,7 @@
     ]
   },
   {
-    "number": " 71",
+    "_id": " 71",
     "question": "Which of the following signals is sent to a process when the key combination CTRL+C is pressed on the keyboard?",
     "options": [
       "SIGINT ",
@@ -809,7 +809,7 @@
     ]
   },
   {
-    "number": " 72",
+    "_id": " 72",
     "question": "What happens after issuing the command vi without any additional parameters?",
     "options": [
       "vi exits with an error message as it cannot be invoked without a file name to operate on.",
@@ -821,7 +821,7 @@
     ]
   },
   {
-    "number": " 73",
+    "_id": " 73",
     "question": "Which of the following command sets the Bash variable named TEST with the content FOO?",
     "options": [
       "TEST = \"FOO\" ",
@@ -833,7 +833,7 @@
     ]
   },
   {
-    "number": " 74",
+    "_id": " 74",
     "question": "Which variable defines the directories in which a Bash shell searches for executable commands?",
     "options": [
       "BASHRC ",
@@ -846,7 +846,7 @@
     ]
   },
   {
-    "number": " 75",
+    "_id": " 75",
     "question": "Which of the following commands determines the type of a file by using a definition database file which contains information about all common file types?",
     "options": [
       "type",
@@ -859,11 +859,11 @@
     ]
   },
   {
-    "number": " 76",
+    "_id": " 76",
     "question": "Which command is used in a Linux environment to create a new directory? (Specify ONLY the command without any path or parameters.)"
   },
   {
-    "number": " 77",
+    "_id": " 77",
     "question": "Which of the following commands prints all files and directories within the /tmp directory or its subdirectories which are also owned by the user root? (Choose TWO correct answers.)",
     "options": [
       "find -path /tmp -uid root ",
@@ -876,7 +876,7 @@
     ]
   },
   {
-    "number": " 78",
+    "_id": " 78",
     "question": "When running the command:    sed -e \"s/a/b/\" /tmp/file >/tmp/file     while /tmp/file contains data, why is /tmp/file empty afterwards?",
     "options": [
       "The command sed did not match anything in that file therefore the output is empty.",
@@ -888,7 +888,7 @@
     ]
   },
   {
-    "number": " 79",
+    "_id": " 79",
     "question": "When given the following command line. echo \"foo bar\" | tee bar | cat      Which of the following output is created?",
     "options": [
       "foo bar ",
@@ -901,7 +901,7 @@
     ]
   },
   {
-    "number": " 80",
+    "_id": " 80",
     "question": "Which of the following commands can be used to determine how long the system has been running? (Choose TWO correct answers.)",
     "options": [
       "up",
@@ -914,7 +914,7 @@
     ]
   },
   {
-    "number": " 81",
+    "_id": " 81",
     "question": "Which of the following are valid stream redirection operators within Bash? (Choose THREE correct answers.)",
     "options": [
       "<<< ",
@@ -927,7 +927,7 @@
     ]
   },
   {
-    "number": " 82",
+    "_id": " 82",
     "question": "After successfully creating a hard link called bar to the ordinary file foo, foo is deleted from the filesystem. Which of the following describes the resulting situation?",
     "options": [
       "foo would be removed while bar would remain accessible.",
@@ -940,7 +940,7 @@
     ]
   },
   {
-    "number": " 83",
+    "_id": " 83",
     "question": "After moving data to a new filesystem, how can the former path of the data be kept intact in order to avoid reconfiguration of existing applications? (Choose TWO correct answers.)",
     "options": [
       "By creating a hard link from the old to the new path of the data.",
@@ -953,7 +953,7 @@
     ]
   },
   {
-    "number": " 84",
+    "_id": " 84",
     "question": "Which of the following commands changes the ownership of file.txt to the user dan and the group staff?",
     "options": [
       "chown dan:staff file.txt",
@@ -965,7 +965,7 @@
     ]
   },
   {
-    "number": " 85",
+    "_id": " 85",
     "question": "Which of the following commands makes /bin/foo executable by everyone but writable only by its owner?",
     "options": [
       "chmod o+rwx,a+rx /bin/foo ",
@@ -977,7 +977,7 @@
     ]
   },
   {
-    "number": " 86",
+    "_id": " 86",
     "question": "Which of the following commands can be used to search for the executable file foo when it has been placed in a directory not included in $PATH?",
     "options": [
       "which ",
@@ -990,7 +990,7 @@
     ]
   },
   {
-    "number": " 87",
+    "_id": " 87",
     "question": "What does the command mount -a do?",
     "options": [
       "It shows all mounted file systems that have been automatically mounted.",
@@ -1003,7 +1003,7 @@
     ]
   },
   {
-    "number": " 88",
+    "_id": " 88",
     "question": "Which of the following settings for umask ensures that new files have the default permissions -rw-r----- ?",
     "options": [
       "0640",
@@ -1015,7 +1015,7 @@
     ]
   },
   {
-    "number": " 89",
+    "_id": " 89",
     "question": "Which of the following is the device file name for the second partition on the only SCSI drive?",
     "options": [
       "/dev/sda2 ",
@@ -1027,7 +1027,7 @@
     ]
   },
   {
-    "number": " 90",
+    "_id": " 90",
     "question": "In order to display all currently mounted filesystems, which of the following commands could be used? (Choose TWO correct answers.)",
     "options": [
       "free",
@@ -1040,7 +1040,7 @@
     ]
   },
   {
-    "number": " 91",
+    "_id": " 91",
     "question": "Which of the following commands can be used to locate programs and their corresponding man pages and configuration files?",
     "options": [
       "which",
@@ -1053,7 +1053,7 @@
     ]
   },
   {
-    "number": " 92",
+    "_id": " 92",
     "question": "Which of the following commands changes the number of days before the ext3 filesystem on /dev/sda1 has to run through a full filesystem check while booting?",
     "options": [
       "tune2fs -c 200 /dev/sda1",
@@ -1066,7 +1066,7 @@
     ]
   },
   {
-    "number": " 93",
+    "_id": " 93",
     "question": "Which type of filesystem is created by mkfs when it is executed with the block device name only and without any additional parameters?",
     "options": [
       "ext3 ",
@@ -1079,7 +1079,7 @@
     ]
   },
   {
-    "number": " 94",
+    "_id": " 94",
     "question": "How many fields are in a syntactically correct line of /etc/fstab?",
     "options": [
       "4 ",
@@ -1092,11 +1092,11 @@
     ]
   },
   {
-    "number": " 95",
+    "_id": " 95",
     "question": "Which command is used to create and initialize the files used to store quota information? (Specify ONLY the command without any path or parameters.)"
   },
   {
-    "number": " 96",
+    "_id": " 96",
     "question": "Which of the following file permissions belong to a symbolic link?",
     "options": [
       "+rwxrwxrwx ",
@@ -1108,7 +1108,7 @@
     ]
   },
   {
-    "number": " 97",
+    "_id": " 97",
     "question": "Creating a hard link to an ordinary file returns an error. What could be the reason for this?",
     "options": [
       "The source file is read-only.",
@@ -1121,7 +1121,7 @@
     ]
   },
   {
-    "number": " 98",
+    "_id": " 98",
     "question": "Which of the following commands creates an ext3 filesystem on /dev/sdb1? (Choose TWO correct answers.)",
     "options": [
       "/sbin/mkfs -t ext3 /dev/sdb1 ",
@@ -1133,7 +1133,7 @@
     ]
   },
   {
-    "number": " 99",
+    "_id": " 99",
     "question": "Which of the following commands will change the quota for a specific user? ",
     "options": [
       "repquota ",
@@ -1145,7 +1145,7 @@
     ]
   },
   {
-    "number": " 100",
+    "_id": " 100",
     "question": "Which utility would be used to change how often a filesystem check is performed on an ext2 filesystem without losing any data stored on that filesystem?",
     "options": [
       "fsck",
@@ -1158,7 +1158,7 @@
     ]
   },
   {
-    "number": " 101",
+    "_id": " 101",
     "question": "Which of the following Linux filesystems preallocates a fixed number of inodes at the filesystem's make/creation time and does NOT generate them as needed? (Choose TWO correct answers.)",
     "options": [
       "JFS ",
@@ -1171,7 +1171,7 @@
     ]
   },
   {
-    "number": " 102",
+    "_id": " 102",
     "question": "What is the purpose of the Filesystem Hierarchy Standard?",
     "options": [
       "It provides unified tools to create, maintain and manage multiple filesystems in a common way.",

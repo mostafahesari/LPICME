@@ -1,4 +1,45 @@
 [
+   {
+    "id": " 1",
+    "question": "Which SysV init configuration file should be modified to disable the ctrl-alt-delete key combination?",
+    "options": [
+      "/proc/keys ",
+      "/etc/inittab ",
+      "/proc/inittab ",
+      "/etc/reboot"
+    ],
+    "answer": [
+      "/proc/inittab "
+    ]
+  },
+  {
+    "id": " 2",
+    "question": "Which of the following information is stored within the BIOS? (Choose TWO correct answers.)",
+    "options": [
+      "Linux kernel version",
+      "Timezone",
+      "Hardware configuration ",
+      "The system's hostname"
+    ],
+    "answer": [
+      "Linux kernel version","The system's hostname"
+    ],
+    "explanation":"nothing"
+  },
+  {
+    "id": " 3",
+    "question": "Which of the following commands reboots the system when using SysV init? (Choose TWO correct answers.)",
+    "options": [
+      "shutdown -r \"rebooting\"",
+      "telinit 6",
+      "telinit 0",
+      "shutdown -k now \"rebooting\""
+    ],
+    "answer": [
+      "shutdown -r \"rebooting\"","telinit 0"
+    ],
+    "explanation": "nothing"
+  },
   {
     "question": "Which of the following commands is used to view kernel-related udev events in real time?",
     "options": [
@@ -7,7 +48,7 @@
       "udevmon -a",
       "udevadm monitor"
     ],
-    "answer": "udevadm monitor",
+    "answer": ["udevadm monitor"],
     "explanation": "The udevadm command is used to work with the udev interface of the kernel, and the monitor subcommand displays kernel uevents and other udev events in real time."
   },
   {
@@ -18,7 +59,7 @@
       "cat /dev/irq",
       "less /dev/irq"
     ],
-    "answer": "Jupiter",
+    "answer": ["Jupiter"],
     "explanation": "Current IRQ assignments are contained in the file /proc/interrupts. Therefore, viewing the contents of the file with a command such as cat will work. There is no “view command, making option A incorrect. Likewise, there is no /dev irq file, making options C and D incorrect."
   }
 ]
